@@ -73,7 +73,9 @@
 a {
     text-decoration: none;
 }
-
+body._lock {
+    overflow: hidden;
+}
 .main {
     width: 100vw;
     background-image: url(../assets/images/bgMain.png);
@@ -715,9 +717,6 @@ a {
             padding: 50px;
             transition: left 0.4s ease 0s;
             overflow: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
         .header-menu__container._active {
             left: 0;
