@@ -152,6 +152,7 @@ body._lock {
     top: 0;
     left: 0;
     display: none;
+    z-index: 3;
 }
 
 #Mapwindow {
